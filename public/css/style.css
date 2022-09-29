@@ -4,11 +4,9 @@
     text-align: center;
 }
 html{
-    background-color: #E4E9FD;
     min-height: 100vh;
-    background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+    background-image: -webkit-linear-gradient(254deg, #fff 0%, #fff 50%);
     background-repeat: no-repeat;
-    background-position: 0px 150px;
     font-family: 'helvetica neue';
 
 }
@@ -16,12 +14,16 @@ html{
 .box{
     max-width: 400px;
     border: none;
-    background-color: #a683e3;
-    background: white;
+    background: grey;
     margin: 50px auto;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -15px rgba(0, 0, 0, 0.3);
 }
+
+.nav-bar{
+    color: #000;
+}
+
 
 /* nav bar */
 nav ul{
@@ -34,40 +36,38 @@ nav ul a{
 }
 nav ul li{
     font-size: 2rem;
-    border: 2px solid #a683e3;
+    /* border: 3px solid #000; */
     padding: 10px 20px;
     margin: 20px 20px;
     border-radius: 20px;
 }
 nav ul li:hover{
     transition: background-color 1s;
-    color: black;
-    background-color: aquamarine;
-    border: 2px solid black;
+    color: #fff;
+    background-color: #000;
 }
 /* nav bar */
 
 #heading{
-    background-color: #a683e3;
     text-align: center;
 }
 
 h1{
     border-radius: 5px;
     padding: 10px;
-    color: #fff;
+    color: #000;
 }
 
 .item{
     display: flex;
     align-items: center;
     min-height: 70px;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #000;
 }
 p{
     font-size: 20px;
     font-weight: 200px;
-    color: #00204a;
+    color: #000;
 }
 
 .item:last-child{
@@ -76,7 +76,7 @@ p{
 
 input:checked+p{
     text-decoration: line-through;
-    text-decoration-color: #A683E3;
+    text-decoration-color: #fff;
 }
 
 input[type = "checkbox"]{
@@ -90,14 +90,15 @@ input[type = "text"]{
     width: 313px;
     height: 60px;
     border: none;
+    color: #000;
     background: transparent;
 }
 input[type = "text"]:focus{
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #000;
 }
 ::placeholder{
-  color: grey;
+  color: #000;
   opacity: 1;
 }
 button{
@@ -105,8 +106,8 @@ button{
   width: 50px;
   min-height: 50px;
   border-color: transparent;
-  background-color: #A683E3;
-  color: #FFF;
+  background-color: #fff;
+  color: #000;
   font-size: 30px;
   border-width: 0px;
 }
@@ -115,3 +116,4 @@ footer{
   color: (0, 0, 0, 0.5);
   text-align: center;
 }
+
